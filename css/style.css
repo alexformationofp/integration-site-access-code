@@ -1,0 +1,419 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+.centrage {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 70px 0;
+}
+li {
+    display: inline-block;
+}
+/* XXXXXXXXXXXX   HEADER   XXXXXXXXXXXXX  */
+
+header {
+    background-image: url("../images/bg-header.jpg");
+    background-size: cover;
+    color: white;
+}
+header nav {
+    border-bottom: solid 1px grey;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header .centrage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+header a {
+    text-transform: uppercase;
+    padding: 24px;
+}
+header li {
+    padding: 24px 0;
+}
+header li:hover {
+    background-color: #a10323;
+}
+.intro {
+    text-align: center;
+    padding: 18% 0;
+    width: 100%;
+}
+.intro h1 {
+    font-size: 3em;
+    /* font-weight: bold; */
+}
+.intro h2 {
+    font-size: 2em;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+.bouton span {
+    display: inline-block;
+    background-color: #a10323;
+    padding: 15px 45px;
+    font-size: 15px;
+}
+
+/* XXXXXXXXXXXX   DIV FORMATION   XXXXXXXXXXXXX  */
+
+.titre-large {
+    text-align: center;
+}
+.titre-large h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.contenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+.formation .gauche {
+    text-align: right;
+    padding-right: 25px;
+    width: 40%;
+}
+.formation p {
+    margin: 25px 0;
+    line-height: 20px;
+}
+.formation .droite {
+    text-align: left;
+    padding-left: 20px;
+    width: 40%;
+}
+.droite span {
+    font-weight: bolder;
+}
+.droite ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.droite li {
+    line-height: 20px;
+    display: list-item;
+    color: #a10323;
+}
+li p {
+    color: black;
+    display: inline;
+}
+
+/* XXXXXXXXXXXX   DIV ENSEIGNEMENT   XXXXXXXXXXXXX  */
+
+.enseignement {
+    background-image: url("../images/bg-enseignement.jpg");
+    background-size: cover;
+    color: white;
+}
+.enseignement .contenu {
+    justify-content: space-between;
+}
+.enseignement .contenu div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.enseignement .contenu p {
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+/* XXXXXXXXXXXX   DIV METIER   XXXXXXXXXXXXX  */
+
+.metier {
+    background-color: #3e3e3e;
+    color: white;
+    line-height: 25px;
+}
+.metier .contenu {
+    padding-top: 0;
+    justify-content: space-between;
+}
+.colonne {
+    width: 50%;
+    min-width: 500px;
+}
+.titre-colonne h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2em;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.metier .souligne-blanc {
+    margin-bottom: 20px;
+}
+.colonne p {
+    margin-bottom: 30px;
+    width: 90%;
+}
+.colonne span {
+    font-weight: bold;
+    display: block;
+}
+.bouton-noir {
+    border: solid 2px white;
+    display: inline-block;
+    padding: 5px 40px;
+}
+.metier .colonne:last-of-type img {
+    width: 100%;
+}
+
+/* XXXXXXXXXXXX   DIV PROJET   XXXXXXXXXXXXX  */
+
+.projet .contenu {
+    padding-top: 0;
+    justify-content: space-between;
+}
+.centrage .colonne:last-of-type {
+    width: 45%;
+}
+.projet ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.projet li {
+    line-height: 20px;
+    display: list-item;
+    color: #a10323;
+}
+.projet .souligne-rouge {
+    margin-bottom: 25px;
+}
+.projet .centrage .contenu .colonne img{
+    width: 100%;
+}
+
+/* XXXXXXXXXXXX   DIV TITRE-PRO   XXXXXXXXXXXXX  */
+
+.titre-pro {
+    background-image: url("../images/bg-titre-pro.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+    line-height: 40px;
+}
+.titre-pro p {
+    padding: 60px 0;
+    text-align: center;
+}
+.titre-pro span {
+    font-weight: bold;
+}
+
+/* XXXXXXXXXXXX   DIV CENTRES  XXXXXXXXXXXXX  */
+
+.centres .contenu {
+    justify-content: space-between;
+}
+.centres .contenu img {
+    width: 275px;
+    height: 275px;
+    padding-bottom: 30px;
+}
+.centres .centrage {
+    padding-bottom: 40px;
+}
+
+/* XXXXXXXXXXXX   DIV TEMOIGNAGES  XXXXXXXXXXXXX  */
+
+.temoignages {
+    background-image: url("../images/bg-temoignages.jpg");
+    color: white;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.guillemets {
+    width: 50px;
+    height: 50px;
+}
+.temoignages span {
+    font-weight: bold;
+    border-right: solid 2px white;
+    border-left: solid 2px white;
+    padding: 0 10px;
+}
+.temoignages p {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding: 20px 0;
+}
+.temoignages .centrage p:first-of-type {
+    font-weight: lighter;
+    line-height: 42px;
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: justify;
+}
+.temoignages .bouton-noir {
+    padding: 20px;
+    margin-top: 40px;
+}
+.temoignages .bouton-noir a {
+    padding: 20px;
+}
+
+/* XXXXXXXXXXXX   DIV CONTACT  XXXXXXXXXXXXX  */
+
+.contact {
+    background-color: #a10323;
+    color: white;
+}
+.contact .contenu {
+    justify-content: space-between;
+}
+input,
+textarea {
+    background-color: transparent;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px white;
+    color: white;
+    margin-bottom: 30px;
+    padding-bottom: 7px;
+}
+.moitie {
+    width: 45%;
+}
+.contact .colonne p {
+    width: 100%;
+}
+.input-droite {
+    float: right;
+}
+.text-area {
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    border: solid 2px white;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    color: #a10323;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 0;
+}
+.submit {
+    text-align: center;
+    margin-top: 50px;
+}
+.contact p {
+    line-height: 20px;
+}
+.contact span {
+    display: inline;
+}
+
+/* XXXXXXXXXXXX   DIV PARTENAIRES  XXXXXXXXXXXXX  */
+
+.partenaires {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+}
+.logo {
+    width: 20%;
+    min-width: 200px;
+}
+.partenaires img {
+    width: 100%;
+}
+
+/* XXXXXXXXXXXX   FOOTER  XXXXXXXXXXXXX  */
+
+footer {
+    background-color: #3e3e3e;
+    color: white;
+    justify-content: space-between;
+}
+footer .centrage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+/* XXXXXXXXXXXXXXXXXXXX RESPONSIVE XXXXXXXXXXXXXX */
+
+@media (max-width: 1199.98px){
+    .centrage{
+        width: 95%;
+    }
+    .enseignement .contenu {
+        justify-content: center;
+    }
+    .enseignement .contenu div {
+        padding: 20px;
+    }
+    .colonne {
+        width: 50%;
+        min-width: 300px;
+    }
+    .centres .contenu {
+        justify-content: center;
+    }
+    .centres .contenu img {
+        width: 275px;
+        height: 275px;
+        padding: 20px;
+    }
+    .temoignages p {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .temoignages .bouton-noir {
+        padding: 20px;
+        margin: 40px auto;
+        text-align: center;
+        width: 300px;
+        display: inherit;
+    }
+}
+@media (max-width: 899px){
+    .formation .gauche {
+        text-align: center;
+        padding-right: 25px;
+        width: 100%;
+    }
+    .logo {
+        width: 20%;
+        min-width: 130px;
+    }
+    .titre-pro p {
+        padding: 60px 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    header a {
+        text-transform: uppercase;
+        padding: 2px;
+    }
+    header img{
+        width: 100px;
+    }
+}
